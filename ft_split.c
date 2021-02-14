@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include "libft.h"
 
-int		split_cnt(int *arr, char const *s, char c)
+int	split_cnt(int *arr, char const *s, char c)
 {
 	int i;
 	int j;
