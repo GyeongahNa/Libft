@@ -14,7 +14,7 @@
 #include <unistd.h>
 #include "libft.h"
 
-int		buff_size(long num)
+int	buff_size(long num)
 {
 	int minus_check;
 	int malloc_size;
