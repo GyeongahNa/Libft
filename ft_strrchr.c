@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int		check_num(const char *str, int c)
+int	check_num(const char *str, int c)
 {
 	int	i;
 	int	check;
