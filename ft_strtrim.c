@@ -13,7 +13,7 @@
 #include <stdlib.h>
 #include "libft.h"
 
-int		in_set(char c, char const *set)
+int	in_set(char c, char const *set)
 {
 	unsigned int i;
 
@@ -30,7 +30,7 @@ int		in_set(char c, char const *set)
 		return (0);
 }
 
-int		get_start(char const *s1, char const *set)
+int	get_start(char const *s1, char const *set)
 {
 	int i;
 	int start;
@@ -49,7 +49,7 @@ int		get_start(char const *s1, char const *set)
 	return (0);
 }
 
-int		get_end(char const *s1, char const *set)
+int	get_end(char const *s1, char const *set)
 {
 	int i;
 	int end;
@@ -70,9 +70,9 @@ int		get_end(char const *s1, char const *set)
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	int		i;
-	int		start;
-	int		end;
+	int	i;
+	int	start;
+	int	end;
 	char	*trim_s;
 
 	i = 0;
