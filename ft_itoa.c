@@ -40,7 +40,7 @@ int	malloc_size(long num)
 char	*ft_itoa(int n)
 {
 	long	num;
-	int		size;
+	int	size;
 	char	*s;
 
 	num = n;
