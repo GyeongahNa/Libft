@@ -12,7 +12,7 @@
 
 #include <stdlib.h>
 
-int		malloc_size(long num)
+int	malloc_size(long num)
 {
 	int minus_check;
 	int malloc_size;
