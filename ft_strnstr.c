@@ -13,7 +13,7 @@
 #include <stddef.h>
 #include "libft.h"
 
-size_t		exam_char(const char *big, const char *little, size_t i)
+size_t	exam_char(const char *big, const char *little, size_t i)
 {
 	size_t j;
 
@@ -28,7 +28,7 @@ size_t		exam_char(const char *big, const char *little, size_t i)
 	return (j);
 }
 
-char		*ft_strnstr(const char *big, const char *little, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t i;
 	size_t j;
