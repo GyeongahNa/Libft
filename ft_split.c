@@ -90,10 +90,10 @@ void	fill_splited(int *arr, char **splited, char const *s)
 
 char	**ft_split(char const *s, char c)
 {
-	int		arr[1000];
-	int		str_len[1000];
+	int	arr[1000];
+	int	str_len[1000];
 	char	**splited;
-	int		i;
+	int	i;
 
 	if (s == 0)
 		return ((char **)(0));
