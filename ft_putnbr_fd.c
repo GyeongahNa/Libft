@@ -42,7 +42,7 @@ int	buff_size(long num)
 void	ft_putnbr_fd(int n, int fd)
 {
 	long	num;
-	int		size;
+	int	size;
 	char	s[1024];
 
 	num = n;
